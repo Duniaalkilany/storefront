@@ -9,7 +9,7 @@ function Category(props) {
   }
   return (
     <>
-      <h2 id='Category'>Select Category:</h2>
+       <h2 id='Category'>Select Category:</h2>
       {props.categories.map((cat) => (
         <>
           <Button id='Button'  variant="contained"color="primary" onClick={() => onClickHandler(cat.normalizedName)}>
@@ -19,13 +19,13 @@ function Category(props) {
       ))}
 
       {props.activeCategory.normalizedName && <h2>Active Category : {props.activeCategory.normalizedName}</h2>}
-    
+      
       {props.activeCategory.normalizedName && <h4 id='desc'> {props.activeCategory.description}</h4>}
     </>
   );
 }
 const mapStateToProps = (state) => {
-  console.log('STATE============>', state);
+  console.log('STATE=====>', state);
   return state.cat;
 };
 const mapDispatchToProps = { selectCategory };

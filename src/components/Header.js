@@ -4,41 +4,44 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
+import { useSelector } from 'react-redux';
 
 export default function Header() {
-    return (
-      <>
-        <ButtonAppBar />
-      </>
-    );
-  }
+  const state = useSelector((state) => state);
+
+  return (
+    <>
+      <ButtonAppBar state={state} />
+    </>
+  );
+}
+
 const useStyles = makeStyles((theme) => ({
-    root: {
-      flexGrow: 1,
-    },
-    menuButton: {
-      marginRight: theme.spacing(2),
-    },
-    title: {
-      flexGrow: 1,
-    },
-  }));
+  root: {
+    flexGrow: 1,
+  },
+  menuButton: {
+    marginRight: theme.spacing(2),
+  },
+  title: {
+    flexGrow: 1,
+  },
+}));
 
+function ButtonAppBar(props) {
+  const classes = useStyles();
 
-  function ButtonAppBar() {
-    const classes = useStyles();
-  
-    return (
-      <div className={classes.root}>
-        <AppBar id='nav-bar' position='static'>
-          <Toolbar>
-            <IconButton edge='start' className={classes.menuButton} color='inherit' aria-label='menu'></IconButton>
-            <Typography variant='h4' className={classes.title}>
-             Dunia Alkilany STORE
-            </Typography>
-            {/* <Button color="inherit">Login</Button> */}
-          </Toolbar>
-        </AppBar>
-      </div>
-    );
-  }
+  return (
+    <div className={classes.root}>
+      <AppBar id='nav-bar' position='static'>
+        <Toolbar>
+          <IconButton edge='start' className={classes.menuButton} color='inherit' aria-label='menu'></IconButton>
+          <Typography variant='h4' className={classes.title}>
+           Dunia Alkilany STORE
+          </Typography>
+          <h3>Cart ({props.state.cart.cartProducts.length})</h3>
+        </Toolbar>
+      </AppBar>
+    </div>
+  );
+}
