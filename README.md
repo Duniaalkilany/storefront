@@ -63,7 +63,7 @@ The user stories from Phase 1 remain unchanged. For this phase, we are now addin
 
 
 
-* ### [code sand box /Phase 2](https://s8rl2.csb.app/)
+* ### [code sand box /Phase 2](https://lpcj0.csb.app/)
 
 * ### [lab 37 pull request ](https://github.com/Duniaalkilany/storefront/pull/2)
 
