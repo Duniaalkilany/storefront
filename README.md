@@ -26,7 +26,7 @@ The following user/developer stories detail the major functionality for this pha
 
 
 
-* ### [code sand box /Phase 1](https://s8rl2.csb.app/)
+* ### [code sand box /Phase 1](https://p3625.csb.app/)
 
 * ### [lab 36 pull request ](https://github.com/Duniaalkilany/storefront/pull/1)
 
@@ -41,6 +41,7 @@ The following user/developer stories detail the major functionality for this pha
 ![img](/assets/lab36-result2.png)
 
 ![img](/assets/lab36-result3.png)
+
 
 
 ## LAB 37 - Redux - Combined Reducers
@@ -62,7 +63,7 @@ The user stories from Phase 1 remain unchanged. For this phase, we are now addin
 
 
 
-* ### [code sand box /Phase 2](https://s8rl2.csb.app/)
+* ### [code sand box /Phase 2](https://lpcj0.csb.app/)
 
 * ### [lab 37 pull request ](https://github.com/Duniaalkilany/storefront/pull/2)
 
@@ -107,10 +108,11 @@ The user stories from Phases 1 and 2 remain unchanged. For this phase, we are no
 
 ![img](./assets/lab38-UML.png)
 
-## result /lab 37 :
+## result /lab 38 :
 
 ![img](/assets/lab38-result1.png)
 
 ### click on cart button to show items in cart and if you want to remove ant item :
 
 ![img](/assets/lab38-result2.png)
+
