@@ -46,7 +46,7 @@ The following user/developer stories detail the major functionality for this pha
 
 ## LAB 37 - Redux - Combined Reducers
 
-##  store-front App Phase 1:
+##  store-front App Phase 2:
 
 ### Virtual Store Phase 2: Continue work on the e-Commerce storefront, breaking up the store into multiple reducers and sharing functionality/data between components
 
@@ -76,4 +76,43 @@ The user stories from Phase 1 remain unchanged. For this phase, we are now addin
 ![img](/assets/lab37-result.png)
 
 
+
+## LAB 38 - Redux - Asynchronous Actions
+
+##  store-front App Phase 3:
+
+### Virtual Store Phase 3: Connect the Virtual Store to an API to retrieve live data from your data source, using thunk to enable asynchronous actions
+
+In phase 3, we will be connecting our Virtual Store to a live API so that our data is persistent and able to be separately managed.
+
+The user stories from Phases 1 and 2 remain unchanged. For this phase, we are now adding the following new user stories to meet the new requirements.
+
+1. As a user, I want to interact with live inventory so that I have confidence that the displayed products are in stock
+2. As a user, I want to know to that when I add an item to my cart, that it is removed from inventory so that no other users can purchase it
+
+## Links and Resources:
+
+* ### [store-server-Heroku](https://dunia-store-server.herokuapp.com/)
+
+* ### store-server-Heroku-endpoints
+   * ### https://dunia-store-server.herokuapp.com/product
+   * ### https://dunia-store-server.herokuapp.com/cartItem
+
+* ### [store-server-repo](https://github.com/Duniaalkilany/store-server)   
+
+* ### [code sand box /Phase 3](https://s8rl2.csb.app/)
+
+* ### [lab 38 pull request ](https://github.com/Duniaalkilany/storefront/pull/3)
+
+## UML : 
+
+![img](./assets/lab38-UML.png)
+
+## result /lab 38 :
+
+![img](/assets/lab38-result1.png)
+
+### click on cart button to show items in cart and if you want to remove ant item :
+
+![img](/assets/lab38-result2.png)
 
