@@ -100,7 +100,7 @@ The user stories from Phases 1 and 2 remain unchanged. For this phase, we are no
 
 * ### [store-server-repo](https://github.com/Duniaalkilany/store-server)   
 
-* ### [code sand box /Phase 3](https://64hsm.csb.app//)
+* ### [code sand box /Phase 3](https://64hsm.csb.app/)
 
 * ### [lab 38 pull request ](https://github.com/Duniaalkilany/storefront/pull/3)
 
