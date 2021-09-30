@@ -26,7 +26,7 @@ The following user/developer stories detail the major functionality for this pha
 
 
 
-* ### [code sand box /Phase 1](https://s8rl2.csb.app/)
+* ### [code sand box /Phase 1](https://p3625.csb.app/)
 
 * ### [lab 36 pull request ](https://github.com/Duniaalkilany/storefront/pull/1)
 
@@ -41,6 +41,7 @@ The following user/developer stories detail the major functionality for this pha
 ![img](/assets/lab36-result2.png)
 
 ![img](/assets/lab36-result3.png)
+
 
 
 ## LAB 37 - Redux - Combined Reducers
@@ -62,7 +63,7 @@ The user stories from Phase 1 remain unchanged. For this phase, we are now addin
 
 
 
-* ### [code sand box /Phase 2](https://s8rl2.csb.app/)
+* ### [code sand box /Phase 2](https://lpcj0.csb.app/)
 
 * ### [lab 37 pull request ](https://github.com/Duniaalkilany/storefront/pull/2)
 
@@ -99,7 +100,7 @@ The user stories from Phases 1 and 2 remain unchanged. For this phase, we are no
 
 * ### [store-server-repo](https://github.com/Duniaalkilany/store-server)   
 
-* ### [code sand box /Phase 3](https://s8rl2.csb.app/)
+* ### [code sand box /Phase 3](https://64hsm.csb.app/)
 
 * ### [lab 38 pull request ](https://github.com/Duniaalkilany/storefront/pull/3)
 
@@ -158,3 +159,4 @@ The user stories from Phases 1, 2 and 3 remain unchanged. For this phase, we are
 ### click onview checkout:
 ![img](/assets/lab39-result3.png)
 ![img](/assets/lab39-result4.png)
+
