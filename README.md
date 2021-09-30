@@ -152,11 +152,13 @@ The user stories from Phases 1, 2 and 3 remain unchanged. For this phase, we are
 
 ![img](/assets/lab39-result1.png)
 
-### click onview details :
+### click on View Details details :
 
 ![img](/assets/lab39-result2.png)
 
-### click onview checkout:
+### click on the header tittle ()Dunia Alkilany Store ) to back to home bage.
+
+### click on checkout:
 ![img](/assets/lab39-result3.png)
 ![img](/assets/lab39-result4.png)
 
