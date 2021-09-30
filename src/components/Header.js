@@ -1,14 +1,18 @@
 import { AppBar, Toolbar ,Typography} from "@material-ui/core";
 import React from "react";
 import Cart from './SimpleCart ';
-
+import { Link } from 'react-router-dom';
 export default function Header() {
   const displayDesktop = () => {
-    return <Typography variant='h4' id='tittle' >
+    return ( <Toolbar>
+        <Link to="/">
+    <Typography variant='h4' id='tittle' >
            Dunia Alkilany STORE
           </Typography>
         
-          
+          </Link>
+      </Toolbar>
+    )    
   };
   
   return (
