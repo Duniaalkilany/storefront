@@ -140,7 +140,7 @@ The user stories from Phases 1, 2 and 3 remain unchanged. For this phase, we are
 
 * ### [store-server-repo](https://github.com/Duniaalkilany/store-server)   
 
-* ### [code sand box /Phase 4](https://s8rl2.csb.app/)
+* ### [code sand box /Phase 4](https://eb2sd.csb.app/)
 
 * ### [lab 39 pull request ](https://github.com/Duniaalkilany/storefront/pull/4)
 
