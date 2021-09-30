@@ -116,3 +116,47 @@ The user stories from Phases 1 and 2 remain unchanged. For this phase, we are no
 
 ![img](/assets/lab38-result2.png)
 
+
+## LAB 39 - Redux - Additional Topics
+
+##  store-front App Phase 4:
+
+### Virtual Store Phase 4: Complete work on the Virtual Store by adding detail pages for individual products as well as the the cart checkout page
+
+In phase 4, we will be completing work on our Virtual Store by adding a two full page views to the application: Product Details and Checkout
+
+The user stories from Phases 1, 2 and 3 remain unchanged. For this phase, we are now adding the following new user stories to meet the new requirements.
+
+1. As a user, I want to see a full detail view of a product so that I can make a more informed choice about purchasing it.
+2. As a user, I want to view my full cart and initiate the checkout process so that I can purchase my items and have them delivered
+
+## Links and Resources:
+
+* ### [store-server-Heroku](https://dunia-store-server.herokuapp.com/)
+
+* ### store-server-Heroku-endpoints
+   * ### https://dunia-store-server.herokuapp.com/product
+   * ### https://dunia-store-server.herokuapp.com/cartItem
+
+* ### [store-server-repo](https://github.com/Duniaalkilany/store-server)   
+
+* ### [code sand box /Phase 4](https://s8rl2.csb.app/)
+
+* ### [lab 39 pull request ](https://github.com/Duniaalkilany/storefront/pull/4)
+
+## UML : 
+
+![img](./assets/lab39-UML.png)
+
+## result /lab 39 :
+
+![img](/assets/lab39-result1.png)
+
+### click onview details :
+
+![img](/assets/lab39-result2.png)
+
+### click onview checkout:
+![img](/assets/lab39-result3.png)
+![img](/assets/lab39-result4.png)
+

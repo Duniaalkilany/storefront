@@ -32,8 +32,13 @@ function ButtonAppBar() {
       <AppBar  position='static' id='footer'>
         <Toolbar>
           <IconButton edge='start' className={classes.menuButton} color='inherit' aria-label='menu'></IconButton>
+
+       
           <h3>all Rights reserved @ Dunia Alkilany 2021</h3>
-        
+          <a href="https://www.linkedin.com/in/dunia-alkilany-991ba31a8/" target="_blank" rel="noreferrer"><img src='https://ricardoreadingmouse.com.au/wp-content/uploads/2018/04/linkedin-logo-copy.png' className='img' width='30px' height= '30px'  alt='LinkedIn'/></a>
+        <a href="https://github.com/Duniaalkilany" target='_blank' rel="noreferrer"><img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'  alt='GitHub' className='img2' width='30px' height= '30px' /></a>
+     
+      
         </Toolbar>
       </AppBar>
     </div>
